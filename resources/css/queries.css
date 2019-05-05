@@ -1,0 +1,42 @@
+
+@media only screen and (max-width: 1200px){
+  .aboutSection p{ font-size: 18px; line-height: 145%;}
+  .row{ padding: 2% 2%; }
+  .innerHeader h1{ font-size: 46px;
+  }
+}
+/* Landscape Mode (Screen size 768 to 1023 px) */
+@media only screen and (max-width: 1023px){
+  body{ font-size: 16px; }
+  .innerHeader h1{ font-size: 36px; }
+  .aboutSection p{ font-size: 12px; line-height: 145%;}
+
+  .btnLink{
+    background-color: #FFD700;
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 100px;
+  }
+  .navigator{ display: inline;}
+  .navigator li a{ font-size: 16px; }
+  .navigator li{ margin-left: 20px; }
+  .mainLogo{ height: 50px;}
+
+}
+
+/* Small Tablets (480 - 767)*/
+@media only screen and (max-width: 767px){
+  .mainLogo{ height: 50px; float: left;}
+  .navigator{ float: left; display: none;}
+  .navigator li{ margin-left: 5px; display: block; }
+  .navigator li a{ font-size: 11px; display: block; }
+  .mobileNavicon{ display: inline-block; }
+}
+
+/* Small Devices */
+@media only screen and (max-width: 480px){
+  .mainLogo{ padding: 0 30%; }
+  .navigator li a{ font-size: 8px; }
+
+}

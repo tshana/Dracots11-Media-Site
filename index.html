@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+      <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+      <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sedgwick+Ave">
+      <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+
+      <title>Dracots11 Official</title>
+
+   </head>
+   
+   <body>
+      <header id="home">
+         <nav>
+            <div class="row">
+               <img class="mainLogo" src="resources/images/logoDark.png">
+               <ul class="navigator">
+                  <li><a href="#home">Home               </a></li>
+                  <li><a href="#aboutMe">About Me        </a></li>
+                  <li><a href="#socialMedia">Social Media</a></li>
+                  <li><a href="#videos">Videos           </a></li>
+                  <li><a href="gallery.html">Gallery     </a></li>
+                  <li><a href="#contactMe">Contact Me    </a></li>
+               </ul>
+               <a class="mobileNavicon js--icon"><i class="ion-navicon" alt="shortMenu"></i></a>
+            </div>
+         </nav>
+         <div class="innerHeader">
+            <h1>Official Home Page of Dracots11 </h1>
+         </div>
+
+      </header>
+<!-- ABOUT ME -->
+      <section class="aboutSection js--aboutSection" id="aboutMe">
+         <div class="row">
+            <h1>About Me</h1>
+            <p>Hello there! My name is Dracots11 and I enjoy making a variety of content. 
+               Some of the content I create include: streaming on Twitch, comedy, video editing, and more. 
+               I have a passion in researching  different ways to entertain people. 
+               The category of topics I produce is very different from each other because I tend to get influences from 
+               different ends of the spectrum. This site is a great way to learn about the things I create!
+            </p>
+         </div>
+      </section>
+<!-- SOCIAL MEDIA -->
+      <section class="socialSection" id="socialMedia">
+         <div class="row"> <h1>Social Media</h1></div>
+         <div class="row js--wp-1">
+            <div class="col span-1-of-3" style="text-align:center">
+               <a href="https://www.twitter.com">
+               <i class="ion-social-twitter bigIcon" alt="Twitt"></i>
+               </a>
+               <h5>Twitter</h5>
+               <p>Typically inactive but will occasionally tweet when the Twitch stream is live!</p> 
+
+            </div>
+            <div class="col span-1-of-3" style="text-align:center">
+               <a class="iconAnimate" href="https://www.youtube.com/channel/UC8NU_5E92ob3hlc6tR8DX8A/videos">
+               <i class="ion-social-youtube-outline bigIcon"></i></a>
+               <h5>Youtube</h5>
+               <p>Variety of videos. Ranging from sketches, to podcasts, or gaming highlights. Should be something for just about everyone.</p> 
+            </div>
+            <div class="col span-1-of-3" style="text-align:center">
+               <a href="https://www.twitch.tv/dracots11">
+               <i class="ion-social-twitch-outline bigIcon"></i>
+               </a>
+               <h5>Twitch</h5>
+               <p>Inconsistent schedule, but will typically play the same few games over and over. Visit Twitch.tv/dracots11 for more info.</p>
+            </div>
+         </div>
+      </section>
+<!-- VIDEOS  -->
+      <section class="videosSection" id="videos">
+         <div class="row"><h1 style="margin-bottom: 0">Videos</h1></div>
+         <div class="row">
+            <div class="col span-1-of-2"><iframe src="https://www.youtube.com/embed/tF2dcqWSa-w" allowfullscreen></iframe></div>
+            <div class="col span-1-of-2"><iframe src="https://www.youtube.com/embed/VuzSpGUsRNY" allowfullscreen></iframe></div>
+         </div>
+
+         <div class="row" style="text-align:center">
+            <a class="btnLink" href="gallery.html">For More visit the Gallery page.</a>
+         </div>
+    
+      </section>
+<!-- CONTACT ME -->
+      <section class="contactSection" id="contactMe">
+         <div class="row"><h1>Contact Me</h1></div>
+         <div class="row">
+            <form method="POST" action="#">
+               <div class="row">
+                  <div class="col span-1-of-3"><label for="name">Name:</label></div>
+                  <div class="col span-2-of-3"><input type="text" id="name" name="name" placeholder="Enter Name (Optional)"></div>
+               </div>
+               <div class="row">
+                  <div class="col span-1-of-3"><label for="subject">*Subject:</label></div>
+                  <div class="col span-2-of-3"><input type="text" id="subject" name="subject" required placeholder="Reason for contacting."></div>
+               </div>
+               <div class="row">
+                  <div class="col span-1-of-3"><label for="email">*Email:</label></div>
+                  <div class="col span-2-of-3"><input type="email" id="email" name="email" required placeholder="Enter Valid Email Address (Required)"></div>
+               </div>
+               <div class="row">
+                  <div class="col span-1-of-3"><label for="message">*Message:</label></div>
+                  <div class="col span-2-of-3"><textarea placeholder="Your message" required></textarea></div>
+               </div>
+               <div class="row">
+                  <div class="col span-1-of-3"><label> &nbsp</label></div>
+                  <div class="col span-2-of-3"><input type="submit" value="Submit Message"></div>
+               </div>
+
+            </form>
+
+         </div>
+      
+      </section>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="vendors/js/jquery.waypoints.min.js"></script>
+
+      <script src="scripts.js"></script>
+ 
+   </body>
+</html>
